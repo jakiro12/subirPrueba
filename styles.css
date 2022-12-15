@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    margin-top: 10%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+    background-color: red;
+}
+main{
+    display: grid;
+    place-items: center;
+
+}
+article{
+    margin-top: 5%;
+}
+.content_social{
+    height: 100%;
+    width: 20%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content_social a{
+    text-decoration: none;
+    list-style: none;
+}
